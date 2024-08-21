@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jquery image slider</title>
+	<link rel="stylesheet" href="slick.css">
+	<link rel="stylesheet" href="slick-theme.css">
+	<script src="jquery.min.js"></script>
+	<script src="slick.min.js"></script>
+
+</head>
+<body>
+	<style>
+   
+*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	.mySlider img{
+		width: 100%;
+		height: 600px;
+		object-fit: cover;
+	}
+	.slide{
+		position: relative;
+	}
+	.slider-text{
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: rgba(0, 0, 0, 0.5);
+		color: #fff;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.slider-text h4{
+		font-size: 3rem;
+		margin-bottom: 20px;
+	}
+	.slider-text p{
+		font-size: 1.5rem;
+		letter-spacing: 1px;
+	}
+</style>
+
+<div class="mySlider">
+	<div class="slide">
+		<div class="slider-text">
+			<h4>SLider Title</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.</p>
+		</div>
+		<a href="#"><img src="pokhara-tour1.jpg"></a>
+	</div>
+	<div class="slide">
+		<div class="slider-text">
+			<h4>SLider Title</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.</p>
+		</div>
+		<a href="#"><img src="helicopter-tour1.jpg"></a>
+	</div>
+	<div class="slide">
+		<div class="slider-text">
+			<h4>SLider Title</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.</p>
+		</div>
+		<a href="#"><img src="helicopter-tour.jpg"></a>
+	</div>
+	<div class="slide">
+		<div class="slider-text">
+			<h4>SLider Title</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.</p>
+		</div>
+		<a href="#"><img src="Muktinath-Temple.jpg"></a>
+	</div>
+	<div class="slide">
+		<div class="slider-text">
+			<h4>SLider Title</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.</p>
+		</div>
+		<a href="#"><img src="boudha.jpg"></a>
+</div>
+</div>1
+
+<script>
+	$('.mySlider').slick({
+		autoplay: true,
+	});
+</script>
+<style>
+	.slick-prev,.slick-next{
+		z-index: 9;
+	}
+	.slick-prev{
+		left: 30px;
+	}
+	.slick-next{
+		right: 30px;
+	}
+	.slick-prev:before, .slick-next:before{
+		font-size: 40px;
+	}
+	}*/
+</body>
+</html>

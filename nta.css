@@ -1,0 +1,226 @@
+header{
+	background: #0d2f3f;
+	color: white;
+}
+header div a{
+	color: white;
+	text-decoration: none;
+	padding: 0 10px;
+}
+nav{
+	background: #fff;
+	padding: 10px 0px;
+}
+  .div ul a{
+	color: black;
+	font-size: 16px;
+}
+ul li{
+	position: relative;
+	list-style: none;
+}
+.div ul ul{
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background: #fff;
+	border: 1px solid black;
+	min-width: 100%;
+
+}
+.div ul ul li{
+	padding: 10px;
+	white-space: nowrap;
+	text-align: start;
+}
+.div ul li:hover ul  {
+	display: block;
+}
+.div  ul ul a:hover{
+	background: blue;
+	color: white;
+}
+.div ul li:hover ul ul{
+	display: none;
+}
+
+.div ul ul .submenu {
+	position: absolute;
+	left: 100%;
+	top: 0;
+	min-width: 100%;
+	padding:0 15px;
+	white-space: nowrap;
+	background: white;
+	text-align: left;	
+}
+.div ul ul li:hover ul{
+	display: block;
+}
+.overlap img{
+ height: 500px;
+ object-fit: cover;	
+}
+.column1{
+	background: linear-gradient(#088fbd,#4b23c2);;
+	width: 100%;
+	padding: 30px 0;
+
+}
+.column1 span{
+	display: flex;
+	align-items: center;
+	padding: 10px 30px;
+}
+.column2 ul{
+	display: flex;
+	list-style: none;
+
+}
+ .column2 ul img{
+/* 	  width: 70%;*/
+    object-fit: cover;
+		padding: 0px;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		margin-left:-14px ;
+		border: 2px solid white;
+	}
+	.column1 span{
+		display:flex;
+		align-items: center;
+		padding: 10px 30px;
+	}
+	.column2 span div i{
+		color: #f2cd11;
+	}
+	.column1 span span h3{
+		color: white;
+		font-size: 18px;
+		font-weight: 500px;
+	}
+	.column1 .column2 span p{
+		display: block;
+		color :white;
+		font-size: 18px;
+		font-weight: 300px;
+	}
+
+	.group a img{
+		height: 70px;
+		width: 60px;
+		border-radius: 10px;
+		margin: 0px 20px;
+
+	}
+	.group1{
+		color: white;
+	}
+	.overlap1{
+	position: absolute;
+	bottom: -50px;
+	width: 75%;
+	left: 15%;
+	background: #fff;
+	padding: 20px;
+  box-shadow:  0 0 3px black ;
+}
+.margin{
+	padding: 200px 0;
+	}
+	.div-background{
+		background: #ccc291;
+		height: 100vh;
+	}
+
+.div-items a{
+  color: #14618e;
+  text-decoration: none;
+	padding: 0px 5px;
+	align-items: center;
+	font-size: 18px;
+}
+.card-img-top{
+	height: 240px;
+	object-fit: cover;
+	transition: 0.3s;
+
+}
+.team-img{
+	overflow: hidden;
+}
+.card div .border1{
+	 padding:10px 0px;
+	border-bottom: 1px solid black;
+}
+.card-text{
+	padding: 10px 0;
+	color: #787775;
+	font-size: 12px;
+	align-items: center;
+}
+.card-text i{
+	color: black;
+	font-size: 18px;
+	margin: 0px 10px;
+	
+
+}
+.card:hover img{
+	 transform: scale(1.3);
+	 filter: brightness(0.7);
+}
+.div-img img{
+	height: 200px;
+	width: 200px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin: 10px 20px;
+}
+.container-div1{
+	text-align: center;
+}
+.container-div1 p i{
+	color:#f2cd11;
+	margin: 0 8px;
+}
+.container-div1 img{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-top: 150px;
+}
+.span span{
+	font-size: 48px;
+}
+.span{
+	margin-bottom:100px ;
+}
+.div-background1{
+	margin-bottom: 100px;
+}
+.nav-background{
+	background: #2978c2;
+	height: 100vh;
+}
+.text-div a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 0;
+}
+.text-div h3{
+	color: white;
+}
+div a i{
+	padding: 0px 10px;
+	color: white;
+	text-decoration: none;
+
+}
+.text-type {
+	color: white;
+	font-size: 15px;
+}
